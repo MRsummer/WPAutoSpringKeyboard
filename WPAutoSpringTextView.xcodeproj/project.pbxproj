@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5CC85F1BCAD33000135ABB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC85E1BCAD33000135ABB /* main.m */; };
+		3A5CC8621BCAD33000135ABB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8611BCAD33000135ABB /* AppDelegate.m */; };
+		3A5CC8651BCAD33000135ABB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8641BCAD33000135ABB /* ViewController.m */; };
+		3A5CC8681BCAD33000135ABB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CC8661BCAD33000135ABB /* Main.storyboard */; };
+		3A5CC86A1BCAD33000135ABB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CC8691BCAD33000135ABB /* Assets.xcassets */; };
+		3A5CC86D1BCAD33000135ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CC86B1BCAD33000135ABB /* LaunchScreen.storyboard */; };
+		3A5CC8781BCAD33000135ABB /* WPAutoSpringTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8771BCAD33000135ABB /* WPAutoSpringTextViewTests.m */; };
+		3A5CC8831BCAD33000135ABB /* WPAutoSpringTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8821BCAD33000135ABB /* WPAutoSpringTextViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3A5CC8741BCAD33000135ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5CC8521BCAD33000135ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5CC8591BCAD33000135ABB;
+			remoteInfo = WPAutoSpringTextView;
+		};
+		3A5CC87F1BCAD33000135ABB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A5CC8521BCAD33000135ABB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A5CC8591BCAD33000135ABB;
+			remoteInfo = WPAutoSpringTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A5CC85A1BCAD33000135ABB /* WPAutoSpringTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPAutoSpringTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5CC85E1BCAD33000135ABB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A5CC8601BCAD33000135ABB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A5CC8611BCAD33000135ABB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A5CC8631BCAD33000135ABB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3A5CC8641BCAD33000135ABB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3A5CC8671BCAD33000135ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A5CC8691BCAD33000135ABB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A5CC86C1BCAD33000135ABB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3A5CC86E1BCAD33000135ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5CC8731BCAD33000135ABB /* WPAutoSpringTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPAutoSpringTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5CC8771BCAD33000135ABB /* WPAutoSpringTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAutoSpringTextViewTests.m; sourceTree = "<group>"; };
+		3A5CC8791BCAD33000135ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5CC87E1BCAD33000135ABB /* WPAutoSpringTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPAutoSpringTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A5CC8821BCAD33000135ABB /* WPAutoSpringTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAutoSpringTextViewUITests.m; sourceTree = "<group>"; };
+		3A5CC8841BCAD33000135ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A5CC8571BCAD33000135ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5CC8701BCAD33000135ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5CC87B1BCAD33000135ABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5CC8511BCAD33000135ABB = {
+			isa = PBXGroup;
+			children = (
+				3A5CC85C1BCAD33000135ABB /* WPAutoSpringTextView */,
+				3A5CC8761BCAD33000135ABB /* WPAutoSpringTextViewTests */,
+				3A5CC8811BCAD33000135ABB /* WPAutoSpringTextViewUITests */,
+				3A5CC85B1BCAD33000135ABB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A5CC85B1BCAD33000135ABB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CC85A1BCAD33000135ABB /* WPAutoSpringTextView.app */,
+				3A5CC8731BCAD33000135ABB /* WPAutoSpringTextViewTests.xctest */,
+				3A5CC87E1BCAD33000135ABB /* WPAutoSpringTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A5CC85C1BCAD33000135ABB /* WPAutoSpringTextView */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CC8601BCAD33000135ABB /* AppDelegate.h */,
+				3A5CC8611BCAD33000135ABB /* AppDelegate.m */,
+				3A5CC8631BCAD33000135ABB /* ViewController.h */,
+				3A5CC8641BCAD33000135ABB /* ViewController.m */,
+				3A5CC8661BCAD33000135ABB /* Main.storyboard */,
+				3A5CC8691BCAD33000135ABB /* Assets.xcassets */,
+				3A5CC86B1BCAD33000135ABB /* LaunchScreen.storyboard */,
+				3A5CC86E1BCAD33000135ABB /* Info.plist */,
+				3A5CC85D1BCAD33000135ABB /* Supporting Files */,
+			);
+			path = WPAutoSpringTextView;
+			sourceTree = "<group>";
+		};
+		3A5CC85D1BCAD33000135ABB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CC85E1BCAD33000135ABB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3A5CC8761BCAD33000135ABB /* WPAutoSpringTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CC8771BCAD33000135ABB /* WPAutoSpringTextViewTests.m */,
+				3A5CC8791BCAD33000135ABB /* Info.plist */,
+			);
+			path = WPAutoSpringTextViewTests;
+			sourceTree = "<group>";
+		};
+		3A5CC8811BCAD33000135ABB /* WPAutoSpringTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CC8821BCAD33000135ABB /* WPAutoSpringTextViewUITests.m */,
+				3A5CC8841BCAD33000135ABB /* Info.plist */,
+			);
+			path = WPAutoSpringTextViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A5CC8591BCAD33000135ABB /* WPAutoSpringTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5CC8871BCAD33000135ABB /* Build configuration list for PBXNativeTarget "WPAutoSpringTextView" */;
+			buildPhases = (
+				3A5CC8561BCAD33000135ABB /* Sources */,
+				3A5CC8571BCAD33000135ABB /* Frameworks */,
+				3A5CC8581BCAD33000135ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPAutoSpringTextView;
+			productName = WPAutoSpringTextView;
+			productReference = 3A5CC85A1BCAD33000135ABB /* WPAutoSpringTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3A5CC8721BCAD33000135ABB /* WPAutoSpringTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5CC88A1BCAD33000135ABB /* Build configuration list for PBXNativeTarget "WPAutoSpringTextViewTests" */;
+			buildPhases = (
+				3A5CC86F1BCAD33000135ABB /* Sources */,
+				3A5CC8701BCAD33000135ABB /* Frameworks */,
+				3A5CC8711BCAD33000135ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5CC8751BCAD33000135ABB /* PBXTargetDependency */,
+			);
+			name = WPAutoSpringTextViewTests;
+			productName = WPAutoSpringTextViewTests;
+			productReference = 3A5CC8731BCAD33000135ABB /* WPAutoSpringTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3A5CC87D1BCAD33000135ABB /* WPAutoSpringTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A5CC88D1BCAD33000135ABB /* Build configuration list for PBXNativeTarget "WPAutoSpringTextViewUITests" */;
+			buildPhases = (
+				3A5CC87A1BCAD33000135ABB /* Sources */,
+				3A5CC87B1BCAD33000135ABB /* Frameworks */,
+				3A5CC87C1BCAD33000135ABB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A5CC8801BCAD33000135ABB /* PBXTargetDependency */,
+			);
+			name = WPAutoSpringTextViewUITests;
+			productName = WPAutoSpringTextViewUITests;
+			productReference = 3A5CC87E1BCAD33000135ABB /* WPAutoSpringTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A5CC8521BCAD33000135ABB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wepie;
+				TargetAttributes = {
+					3A5CC8591BCAD33000135ABB = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					3A5CC8721BCAD33000135ABB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3A5CC8591BCAD33000135ABB;
+					};
+					3A5CC87D1BCAD33000135ABB = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 3A5CC8591BCAD33000135ABB;
+					};
+				};
+			};
+			buildConfigurationList = 3A5CC8551BCAD33000135ABB /* Build configuration list for PBXProject "WPAutoSpringTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A5CC8511BCAD33000135ABB;
+			productRefGroup = 3A5CC85B1BCAD33000135ABB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A5CC8591BCAD33000135ABB /* WPAutoSpringTextView */,
+				3A5CC8721BCAD33000135ABB /* WPAutoSpringTextViewTests */,
+				3A5CC87D1BCAD33000135ABB /* WPAutoSpringTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A5CC8581BCAD33000135ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5CC86D1BCAD33000135ABB /* LaunchScreen.storyboard in Resources */,
+				3A5CC86A1BCAD33000135ABB /* Assets.xcassets in Resources */,
+				3A5CC8681BCAD33000135ABB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5CC8711BCAD33000135ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5CC87C1BCAD33000135ABB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A5CC8561BCAD33000135ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5CC8651BCAD33000135ABB /* ViewController.m in Sources */,
+				3A5CC8621BCAD33000135ABB /* AppDelegate.m in Sources */,
+				3A5CC85F1BCAD33000135ABB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5CC86F1BCAD33000135ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5CC8781BCAD33000135ABB /* WPAutoSpringTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A5CC87A1BCAD33000135ABB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5CC8831BCAD33000135ABB /* WPAutoSpringTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3A5CC8751BCAD33000135ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5CC8591BCAD33000135ABB /* WPAutoSpringTextView */;
+			targetProxy = 3A5CC8741BCAD33000135ABB /* PBXContainerItemProxy */;
+		};
+		3A5CC8801BCAD33000135ABB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3A5CC8591BCAD33000135ABB /* WPAutoSpringTextView */;
+			targetProxy = 3A5CC87F1BCAD33000135ABB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3A5CC8661BCAD33000135ABB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5CC8671BCAD33000135ABB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3A5CC86B1BCAD33000135ABB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A5CC86C1BCAD33000135ABB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A5CC8851BCAD33000135ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A5CC8861BCAD33000135ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A5CC8881BCAD33000135ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPAutoSpringTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wepie.WPAutoSpringTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3A5CC8891BCAD33000135ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WPAutoSpringTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wepie.WPAutoSpringTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3A5CC88B1BCAD33000135ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPAutoSpringTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wepie.WPAutoSpringTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPAutoSpringTextView.app/WPAutoSpringTextView";
+			};
+			name = Debug;
+		};
+		3A5CC88C1BCAD33000135ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WPAutoSpringTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wepie.WPAutoSpringTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPAutoSpringTextView.app/WPAutoSpringTextView";
+			};
+			name = Release;
+		};
+		3A5CC88E1BCAD33000135ABB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPAutoSpringTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wepie.WPAutoSpringTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPAutoSpringTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3A5CC88F1BCAD33000135ABB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WPAutoSpringTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wepie.WPAutoSpringTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPAutoSpringTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A5CC8551BCAD33000135ABB /* Build configuration list for PBXProject "WPAutoSpringTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5CC8851BCAD33000135ABB /* Debug */,
+				3A5CC8861BCAD33000135ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A5CC8871BCAD33000135ABB /* Build configuration list for PBXNativeTarget "WPAutoSpringTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5CC8881BCAD33000135ABB /* Debug */,
+				3A5CC8891BCAD33000135ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A5CC88A1BCAD33000135ABB /* Build configuration list for PBXNativeTarget "WPAutoSpringTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5CC88B1BCAD33000135ABB /* Debug */,
+				3A5CC88C1BCAD33000135ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3A5CC88D1BCAD33000135ABB /* Build configuration list for PBXNativeTarget "WPAutoSpringTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A5CC88E1BCAD33000135ABB /* Debug */,
+				3A5CC88F1BCAD33000135ABB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A5CC8521BCAD33000135ABB /* Project object */;
+}
