@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WPAutoSpringTextViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : WPAutoSpringTextViewController
 
 
 @end

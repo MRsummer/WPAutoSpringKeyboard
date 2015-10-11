@@ -15,6 +15,8 @@
 		3A5CC86D1BCAD33000135ABB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5CC86B1BCAD33000135ABB /* LaunchScreen.storyboard */; };
 		3A5CC8781BCAD33000135ABB /* WPAutoSpringTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8771BCAD33000135ABB /* WPAutoSpringTextViewTests.m */; };
 		3A5CC8831BCAD33000135ABB /* WPAutoSpringTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8821BCAD33000135ABB /* WPAutoSpringTextViewUITests.m */; };
+		3A5CC8921BCAD35900135ABB /* WPAutoSpringTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8911BCAD35900135ABB /* WPAutoSpringTextViewController.m */; settings = {ASSET_TAGS = (); }; };
+		3A5CC8951BCAD4C000135ABB /* UIResponder+FirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5CC8941BCAD4C000135ABB /* UIResponder+FirstResponder.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		3A5CC87E1BCAD33000135ABB /* WPAutoSpringTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPAutoSpringTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5CC8821BCAD33000135ABB /* WPAutoSpringTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPAutoSpringTextViewUITests.m; sourceTree = "<group>"; };
 		3A5CC8841BCAD33000135ABB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A5CC8901BCAD35900135ABB /* WPAutoSpringTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WPAutoSpringTextViewController.h; sourceTree = "<group>"; };
+		3A5CC8911BCAD35900135ABB /* WPAutoSpringTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WPAutoSpringTextViewController.m; sourceTree = "<group>"; };
+		3A5CC8931BCAD4C000135ABB /* UIResponder+FirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+FirstResponder.h"; sourceTree = "<group>"; };
+		3A5CC8941BCAD4C000135ABB /* UIResponder+FirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+FirstResponder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +107,13 @@
 		3A5CC85C1BCAD33000135ABB /* WPAutoSpringTextView */ = {
 			isa = PBXGroup;
 			children = (
-				3A5CC8601BCAD33000135ABB /* AppDelegate.h */,
-				3A5CC8611BCAD33000135ABB /* AppDelegate.m */,
+				3A5CC8901BCAD35900135ABB /* WPAutoSpringTextViewController.h */,
+				3A5CC8911BCAD35900135ABB /* WPAutoSpringTextViewController.m */,
+				3A5CC8931BCAD4C000135ABB /* UIResponder+FirstResponder.h */,
+				3A5CC8941BCAD4C000135ABB /* UIResponder+FirstResponder.m */,
 				3A5CC8631BCAD33000135ABB /* ViewController.h */,
 				3A5CC8641BCAD33000135ABB /* ViewController.m */,
 				3A5CC8661BCAD33000135ABB /* Main.storyboard */,
-				3A5CC8691BCAD33000135ABB /* Assets.xcassets */,
-				3A5CC86B1BCAD33000135ABB /* LaunchScreen.storyboard */,
-				3A5CC86E1BCAD33000135ABB /* Info.plist */,
 				3A5CC85D1BCAD33000135ABB /* Supporting Files */,
 			);
 			path = WPAutoSpringTextView;
@@ -117,6 +122,11 @@
 		3A5CC85D1BCAD33000135ABB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3A5CC8601BCAD33000135ABB /* AppDelegate.h */,
+				3A5CC8611BCAD33000135ABB /* AppDelegate.m */,
+				3A5CC8691BCAD33000135ABB /* Assets.xcassets */,
+				3A5CC86B1BCAD33000135ABB /* LaunchScreen.storyboard */,
+				3A5CC86E1BCAD33000135ABB /* Info.plist */,
 				3A5CC85E1BCAD33000135ABB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -270,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A5CC8921BCAD35900135ABB /* WPAutoSpringTextViewController.m in Sources */,
+				3A5CC8951BCAD4C000135ABB /* UIResponder+FirstResponder.m in Sources */,
 				3A5CC8651BCAD33000135ABB /* ViewController.m in Sources */,
 				3A5CC8621BCAD33000135ABB /* AppDelegate.m in Sources */,
 				3A5CC85F1BCAD33000135ABB /* main.m in Sources */,
